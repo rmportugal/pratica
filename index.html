@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Loja Tech</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Loja Tech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Bem-vindo à Loja Tech!</h1>
+        <p class="lead">
+          Os melhores produtos e serviços de tecnologia para você!
+        </p>
+        <a href="#produtos" class="btn btn-light btn-lg">Nossos Produtos</a>
+      </div>
+    </header>
+
+    <section id="produtos" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Produtos em Destaque</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img
+              src="https://via.placeholder.com/150"
+              class="img-fluid"
+              alt="Notebook"
+            />
+            <h3>Notebook Gamer</h3>
+            <p>
+              Alta performance para jogos e trabalho. A partir de R$ 4.999,00.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://via.placeholder.com/150"
+              class="img-fluid"
+              alt="Mouse"
+            />
+            <h3>Mouse Sem Fio</h3>
+            <p>
+              Conforto e precisão para suas tarefas diárias. A partir de R$
+              199,00.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://via.placeholder.com/150"
+              class="img-fluid"
+              alt="Monitor"
+            />
+            <h3>Monitor 4K</h3>
+            <p>Imagens nítidas e cores vibrantes. A partir de R$ 1.499,00.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Nossos Serviços</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="bi bi-tools display-4 text-primary"></i>
+            <h3>Assistência Técnica</h3>
+            <p>
+              Manutenção e consertos de computadores, notebooks e periféricos.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-shield-check display-4 text-primary"></i>
+            <h3>Segurança de Dados</h3>
+            <p>
+              Proteja seus dados com nossos serviços de backup e segurança
+              digital.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-phone display-4 text-primary"></i>
+            <h3>Suporte Remoto</h3>
+            <p>
+              Atendimento rápido e eficiente para resolver problemas à
+              distância.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Entre em Contato</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Seu nome"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Seu email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea
+              class="form-control"
+              id="mensagem"
+              rows="4"
+              placeholder="Sua mensagem"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2024 Loja Tech. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
